@@ -14,7 +14,7 @@
 
 Acesse o site aqui: https://jvuser01.github.io/verificador-de-clima/
 
-## Layout
+## Screenshots
 
 <div align="center">
     <img src="screenshots/screenshot-1.png" width="350px"/>
