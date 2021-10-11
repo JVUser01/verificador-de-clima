@@ -17,6 +17,7 @@ document.querySelector(".search").addEventListener("submit", async (event) => {
                 name: json.name,
                 country: json.sys.country,
                 temp: json.main.temp,
+                thermalSensation: json.main.feels_like,
                 weatherIcon: json.weather[0].icon,
                 weather: json.weather[0].description,
                 windSpeed: json.wind.speed,
@@ -39,6 +40,7 @@ function showInfo(json) {
     document.querySelector(".temp img").setAttribute("src", `http://openweathermap.org/img/wn/${json.weatherIcon}@2x.png`);
     document.querySelector(".wind_point").style.transform = `rotate(${json.windAngle - 90}deg)`;
     document.querySelector(".weather").innerHTML = json.weather;
+    document.querySelector(".thermal_sensation_info").innerHTML = `${json.thermalSensation} <sup>ºC</sup>`;
 
     document.querySelector(".result").style.display = "block";
 }

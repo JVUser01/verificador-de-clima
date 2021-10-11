@@ -51,7 +51,7 @@ h1 {
 
 
 .result {
-    width: 300px;
+    width: 491px;
     display: none;
     border: 1px dotted #FFF;
     margin-top: 20px;
@@ -78,19 +78,24 @@ h1 {
 
 .info .temp {
     flex: 1;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
 }
 
 .info .wind {
     flex: 1;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.temp_title,
 .wind_title {
-    color: #777;
+    color: #fff;
     font-size: 16px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .temp_info,
@@ -105,6 +110,20 @@ h1 {
     font-weight: normal;
 }
 
+.thermal_sensation {
+    color: #fff;
+}
+
+.thermal_sensation_title {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
+
+.thermal_sensation_info {
+    font-size: 14px;
+}
+
 .wind_info span {
     font-size: 15px;
     font-weight: normal;
@@ -115,8 +134,7 @@ h1 {
     height: 50px;
     border: 1px solid #FFF;
     border-radius: 50%;
-    margin: auto;
-    margin-top: 20px;
+    margin-right: 15px;
     padding-left: 25px;
     padding-top: 25px;
 }
@@ -131,8 +149,9 @@ h1 {
 .weather {
     text-align: center;
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 25px;
+    margin-top: 20px;
     font-weight: bold;
 }
 
@@ -167,4 +186,26 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+
+
+@media (max-width: 440px) {
+    .result {
+        width: 300px;
+    }
+
+    .info .temp {
+        padding-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .info .temp_and_wind {
+        flex-direction: column;
+    }
+
+    .wind_area {
+        margin-right: 25px;
+        margin-left: -5px;
+    }
 }
