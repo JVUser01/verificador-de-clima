@@ -2,7 +2,7 @@
     Aplicação de verificação de clima
 </h1>
 
-<p align="center">Projeto desenvolvido em uma aula do curso da B7Web, com algumas modificações, como alteração do layout, e adição de uma nova funcionalidade que mostra, além da temperatura e do vento, o clima da cidade</p>
+<p align="center">Projeto desenvolvido em uma aula do curso da B7Web, com algumas modificações, como alteração do layout, e adição de uma nova funcionalidade que mostra o clima da cidade</p>
 
 # Tabela de conteúdos
 
@@ -12,7 +12,7 @@
 
 # :gear: Demonstração do site
 
-Acesse o site aqui: 
+Acesse o site aqui: https://jvuser01.github.io/verificador-de-clima/
 
 ## Layout
 
@@ -32,6 +32,6 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 # :page_facing_up: Licensa
 
-O layout inicial deste projeto foi desenvolvido em uma aula do curso da [B7Web](https://b7web.com.br/fullstack/), neste projeto foram feitas algumas modificações.
+Este projeto foi desenvolvido em uma aula do curso da [B7Web](https://b7web.com.br/fullstack/), neste caso foram feitas algumas modificações.
 
 Codado por [João Vitor](https://github.com/JVUser01) :rocket:. Esse projeto está sob a [licença MIT](LICENSE.txt).
